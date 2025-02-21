@@ -1,0 +1,39 @@
+.parallax-section {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .parallax-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/images/parallax-bg.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .content {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 2rem;
+  }
+  
+  .content h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content p {
+    font-size: 1.5rem;
+    max-width: 600px;
+  }
